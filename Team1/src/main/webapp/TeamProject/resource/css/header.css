@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    border-radius: 6px;
+    border-color: white;
+    color: rgb(210, 206, 206);
+    background-color: rgb(100, 75, 75);
+}
+
+
+.pdj_header{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    height: 120px;
+}
+.pdj_logo_img img{
+    width: 150px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.pdj_member{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 20px;
+}
+.pdj_member a{
+    padding: 10px;
+    color: rgb(30,30,30);
+}
+.pdj_member a:hover{
+    color: rgb(100,75,75);
+}
+.pdj_list{
+    position: absolute;
+    bottom: -2px;
+    left: 150px;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pdj_gnb ul li a{
+    padding: 20px;
+    color: rgb(30,30,30);
+}
+.pdj_gnb ul li a:hover{
+    color: rgb(100,75,75);
+}
+.pdj_src{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 2px solid rgb(100,75,75);
+    padding: 15px;
+    font-size: 15px;
+}
+.pdj_src:focus{
+    outline: none;
+}
+.pdj_src_btn{
+    width: 50px;
+    height: 35px;
+}
+.pdj_src_btn:hover{
+    color: rgb(0, 0, 0);
+}

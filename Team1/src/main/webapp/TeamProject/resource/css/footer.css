@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.pdj_footer{
+    font-size: 12px;
+    padding-top: 10px;
+    width: 1280px;
+    margin: 0 auto;
+}
+.pdj_footer img{
+    width: 100px;
+    padding-left: 10px;
+}
+.pdj_footer_list{
+    display: flex;
+    padding: 0;
+}
+.pdj_footer_list li a{
+    padding: 0 10px;
+    color: black;
+}
+.pdj_footer_list li a:hover{
+    color: rgb(100, 75, 75);
+}
+.pdj_footer_list>li>.point{
+    color: blue
+}
+.pdj_footer_list li:last-child{
+    padding-left: 10px;
+}
+.pdj_copyright{
+    padding-left: 10px;
+    color: gray;
+}
